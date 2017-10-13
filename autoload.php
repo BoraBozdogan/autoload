@@ -27,6 +27,7 @@ class autoload {
 			for($x=0;$x < $count;$x++) {
 				require_once("$files[$x]");
 			}
+			break;
 		}
 	}
 }
